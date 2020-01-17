@@ -1,0 +1,23 @@
+{
+    "name": "feng/hello",
+    "description": "this is test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hujianfeng",
+            "email": "1058955466@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "files": [
+            "src/p.php"
+        ],
+        "psr-4": {
+            "hello\\": "src/"
+        }
+    }
+}
